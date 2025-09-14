@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #f6eed7;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #9cae86;
+}
+
+
+.menu a {
+    text-decoration: none;
+    padding: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #79814e;
+}
