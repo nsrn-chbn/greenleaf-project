@@ -1,0 +1,92 @@
+body {
+
+        margin: 0;
+        padding: 0;
+
+
+  background-color: #eee9bf;
+  
+}
+
+.library {
+
+  display: flex;
+  flex-direction: column;   /* stack cards vertically */
+  gap: 20px; 
+  padding: 20px;
+
+
+
+}
+
+
+.addBookBtn {
+display: block;       /* make it behave like a block */
+margin: 20px auto;
+
+font-weight: bold;
+color: #eee9bf;
+background-color: #78793f;
+
+text-align: center;   /* center the text */
+margin-bottom: 20px;
+
+  
+
+}
+
+.MyPlantLibrary {
+
+  text-align: center;   /* center the text */
+  margin-top: 30px;
+
+  color: #78793f;
+  text-decoration: underline;
+
+}
+
+
+.book-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  background: #78793f;
+
+  padding: 10px 25px;
+
+  border-radius: 16px;
+
+}
+
+.book-info {
+
+  color: #eee9bf;
+  justify-content: flex-start;
+
+}
+
+.book-title {
+
+  font-weight: bold;
+  
+}
+
+.book-actions button {
+
+
+  font-weight: bold;
+  color: #eee9bf;
+  background-color: #bdb77d;
+  border-radius: 12px;
+
+
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 6px 10px;
+
+
+  cursor: pointer;
+
+}
